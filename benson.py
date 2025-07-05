@@ -3,8 +3,7 @@ from PIL import Image
 
 st.title("Benson")
 st.subheader("Modern Spacious Retreat by Purdue/Nature & Arcade")
-image = Image.open("/workspaces/z-cube/images/benson_exterior.jpg")
-st.image(image)
+st.image('benson_exterior.jpg')
 st.write("how many bedrooms and bathrooms")
 
 bed, bath = st.columns(2, border=True)

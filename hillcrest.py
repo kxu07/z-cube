@@ -3,8 +3,7 @@ from PIL import Image
 
 st.title("Hillcrest")
 st.subheader("Comfy House, Arcade, walk to Purdue, Golf, Sports!")
-image = Image.open("/workspaces/z-cube/images/hillcrest_cover.jpg")
-st.image(image)
+st.image('hillcrest_cover.jpg')
 st.write("how many bedrooms and bathrooms")
 
 bed, bath = st.columns(2, border=True)
